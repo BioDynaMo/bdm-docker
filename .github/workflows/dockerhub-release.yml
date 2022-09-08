@@ -40,5 +40,5 @@ jobs:
         with:
           context: ./release/
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
+          tags: biodynamo:latest
           labels: ${{ steps.meta.outputs.labels }}
