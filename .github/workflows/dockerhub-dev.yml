@@ -8,7 +8,7 @@ name: Docker image - development
 on:
   schedule:
     # Every day at 3 am
-    - cron: '0 3 * * *'
+    - cron: '0 4 * * *'
   workflow_dispatch:
 
 jobs:
